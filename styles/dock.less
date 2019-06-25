@@ -1,0 +1,38 @@
+.atom-dock-resize-handle.right, .atom-dock-resize-handle.left {
+	width: 1px;
+}
+
+.atom-dock {
+	border-left: 1px solid black;
+}
+
+.atom-dock-toggle-button {
+	color: @base-background-color;
+	.atom-dock-toggle-button-inner {
+			background-color: @base-background-color;
+			border: 1px solid black;
+		}
+		.right .icon {
+		color: black;
+	}
+}
+
+// Add borders
+.atom-dock-inner.atom-dock-open.left {
+	border-right: 1px solid black;
+}
+
+.atom-dock-inner.atom-dock-open.right {
+	border-left: 1px solid black;
+}
+
+// Make toggle buttons cover ^ border
+.atom-dock-toggle-button.left {
+	margin-left: -2px;
+}
+.atom-dock-toggle-button.right {
+	margin-right: -2px;
+}
+.atom-dock-inner:not(.atom-dock-open) .atom-dock-toggle-button.bottom {
+	margin-bottom: -1px;
+}

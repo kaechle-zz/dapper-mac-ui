@@ -1,0 +1,17 @@
+{
+  "name": "dapper-mac-ui",
+  "theme": "ui",
+  "version": "0.0.0",
+  "description": "The most dapper theme ever created for Atom on macOS. Dark mode. SF Pro fonts. It totally looks like a native mac app.",
+  "keywords": [
+    "ui",
+    "theme",
+    "macos",
+    "mac"
+  ],
+  "repository": "https://github.com/kaechle/dapper-mac-ui",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
